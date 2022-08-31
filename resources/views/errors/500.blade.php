@@ -134,4 +134,4 @@
     </section>
 
 </div>
-@include('includes.scripts')
+@include('includes.portal.scripts')
