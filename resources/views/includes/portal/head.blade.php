@@ -56,6 +56,7 @@
     <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.7/dist/sweetalert2.min.css" rel="stylesheet">
     <link href="{{asset('portal/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
     <link href="{{asset('portal/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('portal/css/custom.css')}}" rel="stylesheet">
 
     <script type="text/javascript">
         // Initialize the service worker

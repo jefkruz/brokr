@@ -7,8 +7,24 @@
 <script src="{{asset('portal/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
 <script src="{{asset('portal/js/custom.min.js')}}"></script>
 <script src="{{asset('portal/js/deznav-init.js')}}"></script>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '797291491298913',
+            xfbml      : true,
+            version    : 'v14.0'
+        });
+        FB.AppEvents.logPageView();
+    };
 
-
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 @yield('datascripts')
 
 <!-- Init file -->

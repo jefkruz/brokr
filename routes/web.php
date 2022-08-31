@@ -43,6 +43,16 @@ Route::get('/', [MainController::class, 'index'])->name('index');
 Route::get('redirect', [SocialController::class, 'redirect'])->name('redirect');
 Route::get('callback', [SocialController::class, 'callback'])->name('callback');
 
+Route::controller(SocialController::class)->group(function(){
+    Route::get('auth/google', 'redirectToGoogle')->name('auth.google');
+//    Route::get('auth/google/callback', 'handleGoogleCallback');
+});
+
+Route::get('auth/facebook', [SocialController::class, 'facebookRedirect']);
+Route::get('auth/facebook/callback', [SocialController::class, 'loginWithFacebook']);
+
+
+
 Route::get('about', [MainController::class, 'about'])->name('about-us');
 Route::get('privacy-policy', [MainController::class, 'policy'])->name('policy');
 Route::get('contact', [MainController::class, 'contact'])->name('contact');

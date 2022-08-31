@@ -24,46 +24,46 @@
 
                                     <div class="form-group">
                                         <label class="mb-1"><strong>Email</strong></label>
-                                        <input type="email" name="email" required class="form-control " value="{{ old('email') }}" placeholder="Email Address">
+                                        <input type="email" name="email" required class="form-control " value="{{ old('email') }}" >
                                     </div>
 
                                     <div class="form-group">
                                         <label class="mb-1"><strong>Unique Username</strong></label>
-                                        <input type="text" class="form-control"  name="username" required value="{{ old('username') }}" placeholder="Unique Username">
+                                        <input type="text" class="form-control"  name="username" required value="{{ old('username') }}" >
                                     </div>
 
                                     <div class="form-group">
                                         <label class="mb-1"><strong>Full Name</strong></label>
-                                        <input type="text" class="form-control" name="name" value="{{old('name')}}" required placeholder="Full Name">
+                                        <input type="text" class="form-control" name="name" value="{{old('name')}}" required >
                                     </div>
 
                                     <div class="form-group">
                                         <label class="mb-1"><strong>Phone Number</strong></label>
-                                        <input type="text" class="form-control"  name="phone" inputmode="tel" required value="{{ old('phone') }}" placeholder="234XXXXXXXXXX">
+                                        <input type="text" class="form-control"  name="phone" inputmode="tel" required value="{{ old('phone') }}" >
                                     </div>
 
                                     <div class="form-group">
                                         <label class="mb-1"><strong>Bank Name</strong></label>
-                                        <input type="text" name="bank" required class="form-control " value="{{ old('bank') }}" placeholder="Bank Name">
+                                        <input type="text" name="bank" required class="form-control " value="{{ old('bank') }}" >
                                     </div>
 
                                     <div class="form-group">
                                         <label class="mb-1"><strong>Account Name</strong></label>
-                                        <input type="text" name="acc_name" required class="form-control " value="{{ old('acc_name') }}" placeholder="Account Name">
+                                        <input type="text" name="acc_name" required class="form-control " value="{{ old('acc_name') }}" >
                                     </div>
 
                                     <div class="form-group">
                                         <label class="mb-1"><strong>Account Number</strong></label>
-                                        <input type="text" name="acc_number" required class="form-control " value="{{ old('acc_number') }}" placeholder="Account Number">
+                                        <input type="text" name="acc_number" required class="form-control " value="{{ old('acc_number') }}" >
                                     </div>
 
                                     <div class="form-group">
                                         <label class="mb-1"><strong>Password</strong></label>
-                                        <input type="password"  name="password" class="form-control" placeholder="Password">
+                                        <input type="password"  name="password" class="form-control" >
                                     </div>
                                     <div class="form-group">
                                         <label class="mb-1"><strong>Confirm  Password</strong></label>
-                                        <input type="password"  name="password_confirmation" required class="form-control form-control-lg" placeholder="Confirm Password">
+                                        <input type="password"  name="password_confirmation" required class="form-control form-control-lg" >
                                     </div>
 
 

@@ -85,6 +85,8 @@
   --rgba-primary-8: rgba(59, 76, 184, 0.8);
   --rgba-primary-9: rgba(59, 76, 184, 0.9); }
 
+
+
 .gradient_one {
   background-image: linear-gradient(to right, rgba(186, 1, 181, 0.85) 0%, rgba(103, 25, 255, 0.85) 100%); }
 
