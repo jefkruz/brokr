@@ -1,6 +1,6 @@
 
 <!--**********************************
-        Scripts {{asset('portal/')}}
+{{--        Scripts {{asset('portal/')}}--}}
     ***********************************-->
 <!-- Required vendors -->
 <script src="{{asset('portal/vendor/global/global.min.js')}}"></script>

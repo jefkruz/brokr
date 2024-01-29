@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    @laravelPWA
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="index, follow" />
@@ -58,18 +58,5 @@
     <link href="{{asset('portal/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('portal/css/custom.css')}}" rel="stylesheet">
 
-    <script type="text/javascript">
-        // Initialize the service worker
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/serviceworker.js', {
-                scope: '.'
-            }).then(function (registration) {
-                // Registration was successful
-                console.log('Laravel PWA: ServiceWorker registration successful with scope: ', registration.scope);
-            }, function (err) {
-                // registration failed :(
-                console.log('Laravel PWA: ServiceWorker registration failed: ', err);
-            });
-        }
-    </script>
+
 </head>
